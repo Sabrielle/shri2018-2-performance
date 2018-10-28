@@ -7,11 +7,10 @@
     <title>Smarthome</title>
 
     <link rel="shortcut icon" href="favicon.ico">
-    <link rel="reload" href="assets/banner.webp" as="image">
 
     <link href="fonts/pt_sans.css" rel="preload" as="style">
-
-    <link rel="stylesheet" href="styles.css">
+    <link rel="preload" href="assets/banner.webp" as="image">
+     <link rel="stylesheet" href="styles.css">
 </head>
 
 <body class="page">
@@ -45,7 +44,7 @@
                 </svg>
             </div>
         </header>
-        
+
         <main class="content">
 
             <div class="content__item content__item_half content__item_main">
@@ -207,24 +206,6 @@
         <span class="content__item-header content__item-header_devices">
           Избранные устройства
         </span>
-
-                <div class="filter__select">
-                    <button class="filter__select-button" type="button">
-                        <span class="button__text">Все</span>
-                        <svg xmlns="http://www.w3.org/2000/svg" width="11" height="6">
-                            <path d="M10.3 0L5.5 4.7.7 0 0 .7 5.5 6 11 .7z"/>
-                        </svg>
-                    </button>
-                    <div class="filter__select-popup" aria-hidden="true">
-                        <div class="filter__select-menu">
-                            <div class="filter__select-item filter__select-item_checked" data-group="all">Все</div>
-                            <div class="filter__select-item" data-group="kitchen">Кухня</div>
-                            <div class="filter__select-item" data-group="room">Зал</div>
-                            <div class="filter__select-item" data-group="lamp">Лампочки</div>
-                            <div class="filter__select-item" data-group="cam">Камеры</div>
-                        </div>
-                    </div>
-                </div>
 
                 <input class="filter__item-radio filter__item_devices filter__item-radio_all" type="radio" name="filter" id="all" checked>
                 <label class="filter__item-label filter__item_devices" for="all">Все</label>
@@ -428,11 +409,6 @@
 
 <script src="scripts.js"></script>
 <link href="fonts/pt_sans.css" rel="stylesheet" media="screen">
-<style type="text/css">
-    .main__greeting {
-        font-family: "PT Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    }
-</style>
 
 </body>
 
